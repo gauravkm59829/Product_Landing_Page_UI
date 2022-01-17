@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sixing: border-box;
+}
+body {
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+  overflow-x:hidden;
+}
+
+#header{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  margin: 0rem 0rem;
+  padding: .7rem 2.5%;
+  position: fixed;
+  background-color: #eee;
+}
+
+#header-img {
+  width: 20%;
+  height: 40%;
+  margin-right:auto;
+} 
+
+.nav-links,a {
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  list-style:none;
+  color: rgb(12,32,45) ;
+  padding: 0 1.7rem;
+}
+#email{
+  width: 14%;
+  margin: 1rem;
+  padding: .4rem 2rem .4rem .5rem;
+}
+
+#container{
+     text-align: center;
+     padding-top: 6rem;
+}
+
+#submit{
+  font-size: 1rem;
+  font-weight: 800;
+  width: 10%;
+  padding: .5rem;
+  cursor:pointer;
+  background-color: #efab12;
+  border: none;
+  border-radius: .2rem;
+  color: #111;
+
+}
+
+#description{
+    margin: 8rem 19rem;
+    width: 100%;
+    height: 50%;
+}
+i{
+  color:#FF8C00;
+  font-size: 2.8rem;
+  width: 9%;
+}
+
+.premium{
+  display:flex;
+  flex-direction:row;
+  padding: 2.5rem 2rem;
+}
+
+.desc{
+  display:flex;
+  flex-direction:column;
+  padding-left: 0;
+}
+
+.para1{
+  width: 100%;
+}
+
+.para2{
+  width: 85%;
+}
+
+.para3{
+  width: 90%;
+}
+
+#video{
+  margin: 3rem 0 0 10rem;
+}
+
+#card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceCard{
+  height:20rem;
+  width: 20%;
+  margin: 1rem;
+  text-align: center;
+  border: .05rem solid black;
+  border-radius: .1rem;
+}
+
+.priceCard h3{
+  background-color: #ddd;
+  height: 12%;
+  padding-top:1rem;
+  font-size: 1.18rem;
+  color: #222;
+}
+
+.price h2{
+  margin: 1.5rem 0 1.3rem 0;
+}
+
+.price p{
+    margin: .6rem;
+}
+
+.select{
+  margin: 1.5rem 0 0 0;
+  width: 6rem;
+  height: 2.3rem;
+  font-size: 1.1rem;
+  background-color: #f5c722;
+  border-radius: .1rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.select:hover{
+  background-color: #f5b222;
+}
+
+footer{
+  margin: 1.8rem 0 0 16.8rem;
+  width: 64.9%;
+  background-color: #ddd; 
+}
+
+.links {
+   padding: 1rem 0 .5rem 33rem;
+   display: flex;
+   flex-direction: row-reverse;
+   color: black;
+}
+.links a{
+ font-size: .9rem;
+  width: 10%;
+}
+.terms p{
+    display:flex;
+    flex-direction: row-reverse;
+    padding-right: 2rem;
+    font-size: .9rem;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px){
+
+  html{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /*font-size: 70%;*/
+  }
+ 
+    #container{
+     display:flex;
+      font-size: 60%;
+      flex-direction: column;
+  }
+  
+   #header{
+     margin: 0 0 0 10rem;
+     position: relative;
+  }
+    img{
+      margin-left: 12rem;
+  }
+  li{
+     display:flex;
+     flex-direction: column;
+     padding: .5rem 1rem 0 1rem;
+      height: 1.5rem;
+      padding: 1rem;
+      width: 50%;
+  }
+    #submit{
+    width:6rem;
+    font-size: 100%;
+  }
+  #description {
+     display: flex;
+    flex-direction: column;
+    font-size: 100%;
+    width: 60%;
+  }
+  i{
+    margin: 0 0 1rem 1rem;
+}
+  .premium{
+    display: flex;
+    padding-left: 5rem;
+    width:60%;
+    flex-direction: column;
+  }
+  #card{
+    display: flex;
+     font-size: 100%;
+    flex-direction: column;
+    width: 100%;
+  }
+  #video{
+    width: 50%;
+    margin-left: 5rem;
+    height: 12rem;
+  }
+  
+  
+  
+}
